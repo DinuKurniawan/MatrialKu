@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply font-body text-ink bg-white antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-headline text-navy tracking-tight;
+  }
+}
+
+@layer components {
+  .container-matrial {
+    @apply max-w-matrial mx-auto px-4 md:px-6 lg:px-12;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-brand text-white font-headline font-semibold text-sm rounded-lg px-6 py-3 transition-all hover:bg-brand-hover hover:-translate-y-px hover:shadow-level2;
+  }
+  .btn-navy {
+    @apply inline-flex items-center justify-center gap-2 bg-navy text-white font-headline font-semibold text-sm rounded-lg px-6 py-3 transition-all hover:bg-navy-light hover:shadow-level2;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 bg-white text-navy border-[1.5px] border-line2 font-headline font-semibold text-sm rounded-lg px-6 py-3 transition-all hover:bg-slate2 hover:border-navy;
+  }
+  .card-matrial {
+    @apply bg-white border border-line rounded-2xl shadow-level1 transition-all hover:shadow-level2 hover:-translate-y-0.5;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1 font-headline text-[11px] font-bold uppercase tracking-wider;
+  }
+  .input-matrial {
+    @apply w-full bg-white border border-line2 rounded-lg px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-brand focus:border-brand placeholder:text-slate-400;
+  }
+  .label-matrial {
+    @apply block font-headline text-xs font-semibold uppercase tracking-wider text-navy mb-2;
+  }
+}

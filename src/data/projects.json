@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Gedung Perkantoran CBD Jakarta", "category": "Komersial", "location": "Jakarta Selatan", "year": "2025", "volume": "4.200 ton baja + 120.000 sak semen" },
+  { "id": 2, "title": "Kawasan Industri & Warehouse Cikarang", "category": "Industrial", "location": "Bekasi", "year": "2024", "volume": "8.500 m3 beton + struktur WF" },
+  { "id": 3, "title": "Perumahan Skala 250 Unit", "category": "Residensial", "location": "Tangerang", "year": "2024", "volume": "1,2 jt pcs bata AAC" }
+]
